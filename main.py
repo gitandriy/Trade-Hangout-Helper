@@ -1,4 +1,4 @@
-import time
+import time 
 import pynput
 from pynput.keyboard import Key, Controller
 
@@ -66,7 +66,6 @@ for i in range(0, repeattimes):
         msgsentmsg = str(sentsofar) + " messages sent!"
         print(msgsentmsg)
         time.sleep(loopdelaytime)
-
     if userchoice == '4':
         keyboard.press('/')
         keyboard.release('/')
